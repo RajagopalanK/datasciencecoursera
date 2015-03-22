@@ -136,6 +136,6 @@ View(tidy_set)
 #--------------------------------------------------------------------------------------
 # 4. create tidy dataset
 #--------------------------------------------------------------------------------------
-#write.table(tidy_set, "C:/r/tidy_data.txt", row.names=FALSE)
-#tidydata=read.table("c:/r/tidy_data.txt",header=TRUE,sep= " ")
-#View(tidydata)
+write.table(tidy_set, "C:/r/tidy_data.txt", row.names=FALSE)
+tidydata=read.table("c:/r/tidy_data.txt",header=TRUE,sep= " ")
+View(tidydata)
